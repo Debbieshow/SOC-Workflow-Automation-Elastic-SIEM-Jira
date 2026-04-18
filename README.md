@@ -46,5 +46,5 @@ Leveraging **Elastic Defend**, I executed remote response actions to neutralize 
 ---
 
 ## 📂 Repository Contents
-* `/Detection_rules/`: Contains KQL logic (.txt) and configuration screenshots.
-* `/Screenshots/`: Documentation of alerts, Jira tickets, and remediation actions.
+* [**Detection_rules**](./Detection_rules): Contains KQL logic (.txt) and configuration screenshots.
+* [**Screenshots**](./Screenshots): Documentation of alerts, Jira tickets, and remediation actions.
