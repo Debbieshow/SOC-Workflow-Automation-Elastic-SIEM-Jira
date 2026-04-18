@@ -1,0 +1,3 @@
+# Custom Brute-force Detection Query
+event.category : "authentication" AND 
+event.outcome : "failure"

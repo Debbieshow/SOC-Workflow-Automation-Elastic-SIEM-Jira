@@ -1,0 +1,11 @@
+(
+  event.category : "process" and
+  process.name : "powershell.exe" and
+  process.command_line : (*password* or *pdf* or *xls* or *config* or *Bypass*)
+)
+or
+(
+  event.category : "file" and
+  file.path : (*password* or *pdf* or *xls* or *config*) and
+  event.type : ("creation" or "change")
+)
