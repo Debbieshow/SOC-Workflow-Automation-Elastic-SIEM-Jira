@@ -39,12 +39,7 @@ Leveraging **Elastic Defend**, I executed remote response actions to neutralize 
 
 ---
 
-## 🛠️ Lessons Learned
-* **Alert Tuning:** Learned the importance of "suppression" and specific KQL filtering to prevent "noise".
-* **Incident Lifecycle:** Gained hands-on experience managing a ticket from "New" to "Resolved" while maintaining a clear audit trail.
-
----
-
-## 📂 Repository Contents
-* [**Detection_rules**](./Detection_rules): Contains KQL logic (.txt) and configuration screenshots.
-* [**Screenshots**](./Screenshots): Documentation of alerts, Jira tickets, and remediation actions.
+## ​💡Lessons Learned
+* **Alert Tuning:** Learned the importance of suppression and specific KQL filtering to minimise "alert fatigue" and prioritise high-fidelity detections.
+* **Incident Lifecycle:** Gained hands-on experience managing an incident from initial detection to containment, ensuring every stage was documented via ticket tracking for accountability.
+*  **Integrations:** Developed a practical understanfing of how SIEM (Elastic) and IM (Jira) tools work together to bridge the gap between technical and business workflows.
